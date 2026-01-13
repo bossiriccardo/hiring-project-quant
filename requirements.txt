@@ -1,0 +1,4 @@
+typer
+requests_cache
+pandas 
+tqdm
