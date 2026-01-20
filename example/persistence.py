@@ -48,7 +48,7 @@ def get_recent_afrr_activation(
     return afrr_activation
 
 
-def get_forecast_horizon(now: pd.Timestamp, periods: int = 24) -> pd.DatetimeIndex:
+def get_forecast_horizon(now: pd.Timestamp, periods: int = 8) -> pd.DatetimeIndex:
     """Gets forecast horizon by creating a datetime index starting
     from the next settlement period and of lenght `periods`
 
